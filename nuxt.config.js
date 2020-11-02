@@ -43,5 +43,10 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-  }
+    // workround for fix safari loading issue
+    filenames: {
+      app: ({ isDev }) => isDev ? '[name].[hash].js' : '[chunkhash].js',
+      chunk: ({ isDev }) => isDev ? '[name].[hash].js' : '[chunkhash].js'
+    }
+  },
 }
