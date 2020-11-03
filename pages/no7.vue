@@ -43,11 +43,11 @@ export default {
   align-items: center;
 }
 
-.main-header .log {
+.main-header .logo {
   width: 100px;
 }
 
-.main-header .log img {
+.main-header .logo img {
   width: 100%;
   vertical-align: middle;
 }
