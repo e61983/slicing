@@ -23,13 +23,14 @@
   display: flex;
   padding: 20px;
   max-width: 1200px;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 .main-header .logo {
   width: 100px;
+  position: absolute;
 }
 
 .main-header .logo img {
@@ -55,6 +56,9 @@
   transition: 0.3s;
 }
 
+.main-header .main-nav a:nth-child(3) {
+  margin-left: 140px;
+}
 .main-header .main-nav a:after {
   content: "";
   position: absolute;
