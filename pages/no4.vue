@@ -43,11 +43,6 @@
 </template>
 
 <style type="text/css">
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
 body {
   padding: 100px 0;

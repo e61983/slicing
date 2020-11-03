@@ -43,11 +43,6 @@
 </template>
 
 <style type="text/css" scoped>
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
 .wrap {
   width: 100%;

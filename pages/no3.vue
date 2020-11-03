@@ -34,11 +34,6 @@
 </template>
 
 <style type="text/css">
-* {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
 
 html,
 body {
