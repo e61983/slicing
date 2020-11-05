@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="height:100vh">
     <Nuxt />
   </div>
 </template>
@@ -11,9 +11,5 @@
   margin: 0;
   list-style: none;
   font-family: "Noto Sans TC", sans-serif;
-}
-
-body {
-  margin: 0;
 }
 </style>
