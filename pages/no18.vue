@@ -12,6 +12,7 @@
           <div class="name">Tom</div>
         </div>
         <div class="txt">安安</div>
+        <div class="read">已讀</div>
       </div>
       <div class="user local">
         <div class="avatar">
@@ -24,6 +25,19 @@
           <div class="name">Cady</div>
         </div>
         <div class="txt">?</div>
+        <div class="read">已讀</div>
+      </div>
+      <div class="user remote">
+        <div class="avatar">
+          <div class="pic">
+            <img
+              src="https://randomuser.me/api/portraits/med/men/27.jpg"
+              alt="remote user"
+            />
+          </div>
+          <div class="name">Tom</div>
+        </div>
+        <div class="txt">有在看金魚都能懂的網頁切版教學嗎?</div>
       </div>
     </div>
   </div>
@@ -73,17 +87,16 @@
 }
 .remote .txt {
   margin-left: 20px;
-  margin-right: 80px;
+  margin-right: 10px;
   background-color: #fff;
   color: #a1bec5;
 }
 .local {
-  justify-content: flex-end;
+  flex-direction: row-reverse;
 }
 .local .txt {
   margin-right: 20px;
-  margin-left: 80px;
-  order: -1;
+  margin-left: 10px;
   background-color: #3e92cc;
   color: #fff;
 }
@@ -102,5 +115,12 @@
 .local .txt::before {
   border-left: 10px solid #3e92cc;
   right: -10px;
+}
+.remote .read {
+  display: none;
+}
+.local .read {
+  align-self: center;
+  color: #ccc;
 }
 </style>
