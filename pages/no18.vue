@@ -49,6 +49,7 @@
   display: flex;
   align-items: center;
   padding: 10px;
+  justify-content: center;
 }
 .dialgure {
   width: 500px;
